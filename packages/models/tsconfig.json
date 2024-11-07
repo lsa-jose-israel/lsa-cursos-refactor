@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    /* Language and Environment */
+    "target": "ES2016",
+    "lib": ["ES2016", "DOM"],
+    /* Modules */
+    "module": "NodeNext",
+    "rootDir": "./src",
+    "moduleResolution": "Node16",
+    /* Emit */
+    "outDir": "./dist",
+    /* Interop Constraints */
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    /* Type Checking */
+    "strict": true,
+    /* Completeness */
+    "skipLibCheck": true
+  }
+}

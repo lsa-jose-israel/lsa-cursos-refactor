@@ -1,0 +1,11 @@
+{
+  "name": "pnpm-nx-monorepo",
+  "version": "1.0.0",
+  "description": "Monorepo using PNPM and NX",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

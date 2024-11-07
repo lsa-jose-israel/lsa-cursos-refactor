@@ -2,9 +2,10 @@
   "name": "@pnpm-nx-monorepo/models",
   "version": "1.0.0",
   "description": "A library for data models.",
-  "main": "dist/index.js",
+  "main": "dist/index",
+  "types": "src/index",
   "scripts": {
-    "build": "tsc"
+    "build": "rm -rf dist && tsc"
   },
   "dependencies": {},
   "devDependencies": {

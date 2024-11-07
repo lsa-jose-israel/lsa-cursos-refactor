@@ -10,6 +10,9 @@ importers:
 
   apps/express-api:
     dependencies:
+      '@pnpm-nx-monorepo/models':
+        specifier: workspace:^
+        version: link:../../packages/models
       express:
         specifier: ^4.21.1
         version: 4.21.1
@@ -23,6 +26,12 @@ importers:
       nodemon:
         specifier: ^3.1.7
         version: 3.1.7
+      typescript:
+        specifier: ^5.6.3
+        version: 5.6.3
+
+  packages/models:
+    devDependencies:
       typescript:
         specifier: ^5.6.3
         version: 5.6.3

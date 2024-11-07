@@ -8,6 +8,7 @@
     "preview": "node dist/main.js"
   },
   "dependencies": {
+    "@pnpm-nx-monorepo/models": "workspace:*",
     "express": "^4.21.1"
   },
   "devDependencies": {

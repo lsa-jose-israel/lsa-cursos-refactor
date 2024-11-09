@@ -5,10 +5,12 @@
   "main": "dist/index",
   "types": "src/index",
   "scripts": {
-    "build": "rm -rf dist && tsc"
+    "build": "rm -rf dist && tsc",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix ."
   },
-  "dependencies": {},
   "devDependencies": {
+    "eslint": "^9.14.0",
     "typescript": "^5.6.3"
   }
 }

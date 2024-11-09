@@ -9,7 +9,8 @@
     },
     "serve": {
       "dependsOn": [
-        "^build", "build"
+        "^build",
+        "build"
       ]
     }
   },

@@ -5,7 +5,9 @@
   "scripts": {
     "build": "tsc",
     "serve": "conc --kill-others \"tsc --watch\" \"nodemon ./dist/main.js \"",
-    "preview": "node dist/main.js"
+    "preview": "node dist/main.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
   "dependencies": {
     "@pnpm-nx-monorepo/models": "workspace:*",
@@ -14,6 +16,7 @@
   "devDependencies": {
     "@types/express": "^5.0.0",
     "concurrently": "^9.1.0",
+    "eslint": "^9.14.0",
     "nodemon": "^3.1.7",
     "typescript": "^5.6.3"
   }

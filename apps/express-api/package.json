@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "A REST API using ExpressJS.",
   "scripts": {
-    "build": "tsc --outDir dist",
-    "serve": "conc --kill-others \"tsc --watch\" \"nodemon ./tmp/main.js \"",
+    "build": "tsc",
+    "serve": "conc --kill-others \"tsc --watch\" \"nodemon ./dist/main.js \"",
     "preview": "node dist/main.js"
   },
   "dependencies": {

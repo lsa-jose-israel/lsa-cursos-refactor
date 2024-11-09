@@ -4,5 +4,9 @@ dist
 build
 tmp
 
+# NX
+.nx/cache
+.nx/workspace-data
+
 # Environment
 .env

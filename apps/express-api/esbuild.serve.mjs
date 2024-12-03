@@ -9,6 +9,7 @@ async function watch() {
     bundle: true,
     sourcemap: true,
     minify: true,
+    external: ['swagger-ui-express'],
   })
   await ctx.watch()
   console.log('Watching...')

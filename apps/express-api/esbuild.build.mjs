@@ -9,6 +9,7 @@ async function build() {
     bundle: true,
     sourcemap: true,
     minify: true,
+    external: ['swagger-ui-express'],
   })
   console.log('Build finished.')
 }

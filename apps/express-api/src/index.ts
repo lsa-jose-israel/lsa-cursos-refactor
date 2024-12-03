@@ -1,24 +1,13 @@
-import type { IUser } from '@pnpm-nx-monorepo/models'
 import http from 'node:http'
-import express from 'express'
+import { app } from './app'
 
 const port = Number.parseInt(process.env.PORT ?? '3000')
 const host = process.env.HOST ?? '0.0.0.0'
-const user: IUser = {
-  id: 'uid',
-  name: 'Testing',
-  email: 'test@test.com',
-}
 
-const app = express()
 const server = http.createServer(app)
 
-app.get('/', (req, res) => {
-  res.send(`Express API, ${JSON.stringify(user)}`)
-})
-
 server.listen(port, host, () => {
-  console.log(`Express API listening at http://${host}:${port}`)
+  console.log(`Server listening at http://${host}:${port}`)
 })
 
 function gracefulShutdown() {
@@ -41,4 +30,3 @@ function gracefulShutdown() {
 
 process.on('SIGINT', gracefulShutdown)
 process.on('SIGTERM', gracefulShutdown)
-process.on('SIGUSR2', gracefulShutdown)

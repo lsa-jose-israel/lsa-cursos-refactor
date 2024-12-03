@@ -7,14 +7,19 @@
     "serve": "conc --kill-others --names \"build,serve\" \"node esbuild.serve.mjs\" \"nodemon dist/index.js\"",
     "preview": "node dist/index.js",
     "lint": "eslint .",
-    "lint:fix": "eslint . --fix"
+    "lint:fix": "eslint . --fix",
+    "tsoa": "tsoa spec-and-routes -c=tsoa.json"
   },
   "dependencies": {
     "@pnpm-nx-monorepo/models": "workspace:*",
-    "express": "^4.21.1"
+    "@tsoa/runtime": "^6.5.1",
+    "express": "^4.21.1",
+    "swagger-ui-express": "^5.0.1",
+    "tsoa": "^6.5.1"
   },
   "devDependencies": {
     "@types/express": "^5.0.0",
+    "@types/swagger-ui-express": "^4.1.7",
     "concurrently": "^9.1.0",
     "esbuild": "^0.24.0",
     "eslint": "^9.14.0",

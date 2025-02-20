@@ -46,7 +46,7 @@
 		"securitySchemes": {}
 	},
 	"info": {
-		"title": "@pnpm-nx-monorepo/express-api",
+		"title": "@lsa-cursos-refactor/express-api",
 		"version": "1.0.0",
 		"description": "A REST API using ExpressJS.",
 		"contact": {}

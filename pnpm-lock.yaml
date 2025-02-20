@@ -20,7 +20,7 @@ importers:
 
   apps/express-api:
     dependencies:
-      '@pnpm-nx-monorepo/models':
+      '@lsa-cursos-refactor/models':
         specifier: workspace:*
         version: link:../../packages/models
       '@tsoa/runtime':

@@ -1,5 +1,5 @@
-import type { UserCreateParams } from '@pnpm-nx-monorepo/models'
-import { User } from '@pnpm-nx-monorepo/models'
+import type { UserCreateParams } from '@lsa-cursos-refactor/models'
+import { User } from '@lsa-cursos-refactor/models'
 
 export class UsersService {
   public get(id: string, name?: string): User {

@@ -1,4 +1,4 @@
-import type { User, UserCreateParams } from '@pnpm-nx-monorepo/models'
+import type { User, UserCreateParams } from '@lsa-cursos-refactor/models'
 import {
   Body,
   Controller,

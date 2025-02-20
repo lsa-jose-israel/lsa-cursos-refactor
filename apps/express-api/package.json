@@ -1,5 +1,5 @@
 {
-  "name": "@pnpm-nx-monorepo/express-api",
+  "name": "@lsa-cursos-refactor/express-api",
   "version": "1.0.0",
   "description": "A REST API using ExpressJS.",
   "scripts": {
@@ -11,7 +11,7 @@
     "tsoa": "tsoa spec-and-routes -c=tsoa.json"
   },
   "dependencies": {
-    "@pnpm-nx-monorepo/models": "workspace:*",
+    "@lsa-cursos-refactor/models": "workspace:*",
     "@tsoa/runtime": "^6.5.1",
     "express": "^4.21.1",
     "swagger-ui-express": "^5.0.1",

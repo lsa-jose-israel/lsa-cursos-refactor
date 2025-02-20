@@ -1,5 +1,5 @@
 {
-  "name": "@pnpm-nx-monorepo/source",
+  "name": "@lsa-cursos-refactor/source",
   "version": "1.0.0",
   "description": "Monorepo using PNPM and NX",
   "license": "MIT",

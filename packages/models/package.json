@@ -1,5 +1,5 @@
 {
-  "name": "@pnpm-nx-monorepo/models",
+  "name": "@lsa-cursos-refactor/models",
   "version": "1.0.0",
   "description": "A library for data models.",
   "main": "dist/index",
